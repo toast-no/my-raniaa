@@ -1,0 +1,54 @@
+body {
+    background-image: url('PASTE_YOUR_NEW_IMAGE_LINK_HERE'); /* Replace with your image link */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full screen height */
+    text-align: center;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+}
+
+h1 {
+    font-family: 'Pacifico', cursive; /* Fun and handwritten style */
+    font-size: 3rem;
+    color: #ff69b4; /* Bright pink */
+    text-shadow: 3px 3px 8px rgba(255, 182, 193, 0.8); /* Glowy pink shadow */
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: rgba(255, 105, 180, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+button {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
